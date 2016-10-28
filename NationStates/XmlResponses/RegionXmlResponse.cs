@@ -152,7 +152,7 @@ namespace NationStates.XmlResponses {
 			[XmlElement( ElementName = "GAVOTE" )]
 			public GaVote rGaVote { get; set; }
 			[XmlElement( ElementName = "HAPPENINGS" )]
-			public Happenings Happenings { get; set; }
+			public HAPPENINGS Happenings { get; set; }
 			[XmlElement( ElementName = "HISTORY" )]
 			public HISTORY History { get; set; }
 			[XmlElement( ElementName = "MESSAGES" )]

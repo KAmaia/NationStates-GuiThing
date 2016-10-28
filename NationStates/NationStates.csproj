@@ -71,7 +71,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlResponses\Census.cs" />
+    <Compile Include="XmlResponses\Dispatch.cs" />
     <Compile Include="XmlResponses\Happenings.cs" />
+    <Compile Include="XmlResponses\NationXmlResponse.cs" />
     <Compile Include="XmlResponses\Poll.cs" />
     <Compile Include="XmlResponses\RegionXmlResponse.cs" />
     <Compile Include="XmlResponses\WorldXmlResponse.cs" />

@@ -34,7 +34,6 @@ namespace NationStates.XmlResponses {
 		[XmlAttribute( AttributeName = "id" )]
 		public string Id { get; set; }
 	}
-
 	[XmlRoot( ElementName = "OPTIONS" )]
 	public class OPTIONS {
 		[XmlElement( ElementName = "OPTION" )]

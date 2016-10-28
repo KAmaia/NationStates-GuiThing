@@ -16,7 +16,10 @@ namespace NationStates.XmlResponses {
 	public class SCALE {
 		[XmlElement( ElementName = "SCORE" )]
 		public string Score { get; set; }
+		[XmlElement( ElementName = "RANK" )]
+		public string Rank { get; set; }
 		[XmlAttribute( AttributeName = "id" )]
 		public string Id { get; set; }
 	}
+
 }

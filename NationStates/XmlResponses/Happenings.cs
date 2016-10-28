@@ -20,7 +20,7 @@ namespace NationStates.XmlResponses {
 	}
 
 	[XmlRoot( ElementName = "HAPPENINGS" )]
-	public class Happenings {
+	public class HAPPENINGS {
 		[XmlElement( ElementName = "EVENT" )]
 		public List<EVENT> Events { get; set; }
 	}
